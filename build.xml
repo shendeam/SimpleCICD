@@ -1,0 +1,5 @@
+<project name="SimpleCICD" default="zip">
+	<target name="zip" description="zip files using ant">
+		<zip destfile="simpleCICD.zip" basedir="."/>
+	</target>
+</project>
